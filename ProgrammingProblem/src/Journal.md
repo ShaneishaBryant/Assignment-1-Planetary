@@ -26,3 +26,23 @@ Describe how you managed the loop’s condition. How does the program know when 
 
 I used a do-while loop so the program executes automatically on the first run. At the end of the loop, it prompts 
 for user input to determine whether to repeat the code. If the user enters anything other than 'yes', the loop terminates.
+
+
+
+--------
+
+
+Where did you place your counter variable and why? What would happen if you placed it inside the loop?
+
+I placed the counter outside the loop so the value would be remembered across every iteration. If it was
+placed inside the loop the variable would be reset to zero every time the loop ran. 
+
+
+
+
+_____
+
+
+Question for Professor Turner. What is the best way to determine when to use switch and when to use if-else statements?
+When is it not good to use switch? In the lecture video, you mentioned you don't use switch that often, is that because it's 
+not the best method to use?

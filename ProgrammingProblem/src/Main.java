@@ -10,6 +10,9 @@ public class Main {
         String name = program.nextLine();
 
         String newentry;
+
+        int paradiseRating = 0;
+
         do {
             System.out.println("Enter the name of the plant you wish to visit:");
             String plant = program.nextLine();
@@ -37,6 +40,7 @@ public class Main {
             switch (rating) {
                 case 5:
                     System.out.println("Absolute Paradise!");
+                    paradiseRating = paradiseRating + 1;
                     break;
                 case 4, 3:
                     System.out.println("Quite Comfortable");
@@ -58,6 +62,7 @@ public class Main {
 
         }while (newentry.equalsIgnoreCase("Yes"));
 
+        System.out.println("You have discovered " + paradiseRating + " paradise planets today!");
         System.out.println("Safe voyage may the odds be ever in your favor!");
     }
 }
