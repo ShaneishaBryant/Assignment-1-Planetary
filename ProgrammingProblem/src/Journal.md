@@ -17,3 +17,12 @@ ______
 How do you think using a switch might make this more easy or difficult?
 
 Using a switch statement made organizing my code much easier. It provided a clean, structured way to compare discrete values compared to writing a long chain of conditions.
+
+
+–––––––
+
+
+Describe how you managed the loop’s condition. How does the program know when to stop asking for more planets?
+
+I used a do-while loop so the program executes automatically on the first run. At the end of the loop, it prompts 
+for user input to determine whether to repeat the code. If the user enters anything other than 'yes', the loop terminates.
