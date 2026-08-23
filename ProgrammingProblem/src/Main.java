@@ -23,8 +23,30 @@ public class Main {
         if (temp > 100 || temp < -50) {
             System.out.println("Caution: This plant is too extreme for human life.");
         } else {
-            System.out.println("This planet's temperature is safe to visit.");
+            System.out.println("This planet's temperature is safe to visit.");}
+
+
+        System.out.println("On a scale of 1 (Standard) to 5 (Premium Luxury),\n" +
+                "what is your travel preference?");
+
+        int rating = program.nextInt();
+
+        switch (rating){
+            case 5:
+                System.out.println("Absolute Paradise!");
+                break;
+            case 4, 3:
+                System.out.println("Quite Comfortable");
+                break;
+            case 2, 1:
+                System.out.println("Roughing it in the cosmos.");
+                break;
+            default:
+                System.out.println("Invalid entry.");
+                break;
 
         }
+
+
     }
 }
